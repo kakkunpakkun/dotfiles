@@ -1,0 +1,9 @@
+[ghq]
+        vcs = git
+        root = ~/Workspace
+
+[alias]
+        st = status
+        co = checkout
+        sw = switch
+        s = switch
