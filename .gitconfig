@@ -5,8 +5,8 @@
         helper = 
         helper = !/usr/bin/gh auth git-credential
 [user]
-        email = 11kaku@gmail.com
-        name = Junichi Kaku
+        email = kakkunpakkun@gmail.com
+        name = kakkunpakkun
 [alias]
         st = status
         co = switch
