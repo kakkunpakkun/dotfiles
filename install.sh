@@ -4,7 +4,7 @@ echo "start setup..."
 
 for file in .gitconfig .config
 do
-	ln -s $file ${HOME}/${file}
+	ln -s ${HOME}/${file} $file
 done
 
 echo "done!"
