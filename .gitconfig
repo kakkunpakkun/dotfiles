@@ -1,9 +1,18 @@
 [ghq]
         vcs = git
         root = ~/Workspace
-
+[credential "https://github.com"]
+        helper = 
+        helper = !/usr/bin/gh auth git-credential
+[user]
+        email = 11kaku@gmail.com
+        name = Junichi Kaku
 [alias]
         st = status
-        co = checkout
+        co = switch
+        br = branch
+        df = diff
         sw = switch
-        s = switch
+        s  = switch
+[credential]
+        helper = cache
