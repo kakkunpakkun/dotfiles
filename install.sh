@@ -2,9 +2,9 @@
 
 echo "start setup..."
 
-for file in .vimrc .gitconfig .gitignore .config
+for file in .gitconfig .config
 do
-	[ ! -e $file ] && ln -s $file ${HOME}/${file}
+	ln -s $file ${HOME}/${file}
 done
 
 echo "done!"
