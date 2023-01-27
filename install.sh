@@ -9,7 +9,7 @@ source "$HOME/.cargo/env"
 cargo install exa
 
 echo "install fisher..."
-curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+fish -c "curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher"
 
 echo "synbolic links..."
 ln -s ${SCRIPT_DIR}/.gitconfig ${HOME}/.gitconfig
