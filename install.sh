@@ -1,5 +1,5 @@
 #!/bin/fish 
-set SCRIPT_DIR (cd (dirname $0); pwd)
+set SCRIPT_DIR (pwd)
 
 echo "start setup..."
 
