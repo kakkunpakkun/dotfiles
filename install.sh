@@ -1,5 +1,5 @@
 #!/bin/fish 
-set SCRIPT_DIR (pwd)
+set SCRIPT_DIR /workspaces/.codespaces/.persistedshare/dotfiles
 
 echo "start setup..."
 
